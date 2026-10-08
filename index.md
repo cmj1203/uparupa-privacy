@@ -1,11 +1,11 @@
 ---
-title: 우파루파 키우기 개인정보 처리방침
+title: 데스크탑 우파루파 개인정보 처리방침
 ---
 
 
 시행일: 2026-10-08
 
-우파루파 키우기(이하 '앱')는 바탕화면에서 우파루파를 키우는 Windows 앱입니다. 앱은 회원 가입이나 로그인이 없고, 개발자가 운영하는 서버로 정보를 보내지 않습니다.
+데스크탑 우파루파(이하 '앱')는 바탕화면에서 우파루파를 키우는 Windows 앱입니다. 앱은 회원 가입이나 로그인이 없고, 개발자가 운영하는 서버로 정보를 보내지 않습니다.
 
 ## 1. 앱 밖으로 보내는 정보
 
@@ -38,11 +38,11 @@ konoha09@naver.com
 
 ---
 
-# Uparupa Privacy Policy
+# Desktop Uparupa Privacy Policy
 
 Effective: 2026-10-08
 
-Uparupa ("the app") is a Windows desktop pet. It has no accounts and sends nothing to servers run by the developer.
+Desktop Uparupa ("the app") is a Windows desktop pet. It has no accounts and sends nothing to servers run by the developer.
 
 **Data sent outside the app**
 - ipwho.is receives your IP address so the app can find your approximate city for weather.
