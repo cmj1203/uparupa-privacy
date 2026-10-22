@@ -9,12 +9,10 @@ Desktop Uparupa(이하 '앱')는 바탕화면에서 우파루파를 키우는 Wi
 
 ## 1. 앱 밖으로 보내는 정보
 
-날씨를 보여 주려고 앱은 먼저 Windows 위치 기능에 이 컴퓨터의 위치를 묻습니다. Windows 설정에서 위치를 끄거나 위치를 얻지 못하면 아래 ipwho.is로 대략적인 위치를 찾습니다.
-
 | 보내는 곳 | 보내는 정보 | 쓰는 곳 |
 |---|---|---|
-| ipwho.is | 인터넷 주소(IP). Windows 위치를 얻지 못했을 때만 요청합니다. 요청을 보내면 상대 서버가 자연히 알게 됩니다 | 대략적인 도시 위치를 알아내 날씨를 보여 줍니다 |
-| Open-Meteo(api.open-meteo.com) | 위에서 얻은 위도·경도 | 날씨와 기온을 받아 배경 연출과 펫의 말에 씁니다 |
+| ipwho.is | 인터넷 주소(IP). 요청을 보내면 상대 서버가 자연히 알게 됩니다 | 대략적인 도시 위치를 알아내 날씨를 보여 줍니다 |
+| Open-Meteo(api.open-meteo.com) | 위에서 얻은 대략적인 위도·경도 | 날씨와 기온을 받아 배경 연출과 펫의 말에 씁니다 |
 
 - 날씨 조회는 앱이 켜져 있는 동안 1시간마다 합니다.
 - 두 서비스가 받은 정보를 다루는 방식은 각 서비스의 방침을 따릅니다.
@@ -47,9 +45,8 @@ Effective: 2026-10-21
 Desktop Uparupa ("the app") is a Windows desktop pet. It has no accounts and sends nothing to servers run by the developer.
 
 **Data sent outside the app**
-- For weather, the app first asks the Windows location feature for this PC's location. If location is turned off in Windows settings or no location is available, it uses ipwho.is instead.
-- ipwho.is receives your IP address so the app can find your approximate city for weather. It is contacted only when Windows location is unavailable.
-- Open-Meteo (api.open-meteo.com) receives the latitude/longitude obtained above and returns weather and temperature. Weather is checked hourly while the app runs.
+- ipwho.is receives your IP address so the app can find your approximate city for weather.
+- Open-Meteo (api.open-meteo.com) receives that approximate latitude/longitude and returns weather and temperature. Weather is checked hourly while the app runs.
 - No analytics, advertising, or tracking.
 
 **Data kept on your PC only**
